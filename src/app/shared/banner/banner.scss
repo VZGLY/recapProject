@@ -1,0 +1,26 @@
+#banner{
+    background-color: cornsilk;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo-space{
+    background-color: aquamarine;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    border-radius: 40px;
+}
+
+#links-space{
+    height: 100px;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo{
+    height: 80px;
+}
