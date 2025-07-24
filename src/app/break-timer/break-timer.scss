@@ -1,3 +1,13 @@
 #container{
-    margin: 10px;
+    margin: 20px;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#container>p{
+    font-size: xx-large;
 }
