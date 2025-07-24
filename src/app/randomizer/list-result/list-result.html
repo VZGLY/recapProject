@@ -1,0 +1,7 @@
+<div id="group-result">
+    @for (item of groupes(); track $index) 
+    {
+        <p>Groupe {{$index + 1}} : {{item.join(", ")}}</p>
+    }
+</div>
+

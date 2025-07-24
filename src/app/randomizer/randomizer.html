@@ -1,0 +1,12 @@
+<div id="global">
+    <input type="text" [(ngModel)]="inputValue">
+    <button (click)="ajouterPersonne()">Ajouter</button>
+
+    <app-list-personne (delEvent)="deletePersonne($event)" [personnes]="personnes()"></app-list-personne>
+    @if (personnes().length > 0) 
+    {
+        <input type="number" [(ngModel)]="numberInputValue">
+        <button (click)="creerGroupes()">Randomize</button>
+        <app-list-result [groupes]="groupes()"></app-list-result>
+    }
+</div>

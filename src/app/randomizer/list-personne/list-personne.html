@@ -1,0 +1,7 @@
+<div id="list">
+    @for (item of personnes(); track $index) 
+    {
+        <p>{{item}}</p> &nbsp; <button (click)="deleteElement($index)">Del</button> &nbsp; {{personnes().length - 1 !== $index ? "-" : ""}} &nbsp; 
+    }
+</div>
+
